@@ -119,16 +119,13 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "ISBN=" + ISBN +
-                ", title='" + title + '\'' +
-                ", anio=" + anio +
-                ", copies=" + copies +
-                ", borrowedCopies=" + borrowedCopies +
-                ", remainingCopies=" + remainingCopies +
-                ", active=" + active +
-                ", author=" + author +
-                ", publisher=" + publisher +
-                '}';
+        return "ISBN: " + ISBN + '\n' +
+                "Title: " + title + '\n' +
+                "Author: " + author + '\n' +
+                "Publisher: " + publisher + '\n'+
+                "Year: " + anio + '\n' +
+                "Total Copies: " + copies + '\n' +
+                "Borrowed Copies: " + borrowedCopies + '\n' +
+                "Available Copies: " + remainingCopies + '\n';
     }
 }
